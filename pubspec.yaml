@@ -1,0 +1,7 @@
+name: pTest11
+description: A sample Polymer application
+dependencies:
+    polymer: any
+transformers:
+- polymer:
+    entry_points: web/ptest11.html
