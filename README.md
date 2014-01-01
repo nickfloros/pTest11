@@ -2,7 +2,7 @@
 
 polymer.dart app for testing inclusion of multiple components.
 
-```ptest11.html``` includes ```clickCounter.html``` and that in turn includes ```infoa.html``` and ```infob.html``` polymer components.
+```ptest11.html``` includes ```clickCounter.html``` and that includes ```infoa.html``` and ```infob.html``` polymer components.
 
 Within ```ClickCounter.created```, there is a simple print statement ```print('ClickCounter.created shadowRoot is null ${shadowRoot==null}');```. There are similar implementation in ```InfoA``` and ```InfoB```
 
