@@ -1,5 +1,7 @@
 <link rel="import" href="infoa.html">
 <link rel="import" href="infob.html">
+<link ref="import" href="packages/ptest11/infoc.html">
+
 <polymer-element name="click-counter" attributes="count">
   <template>
     <style>
@@ -16,6 +18,7 @@
     <div>
       <info-b></info-b>
       <info-a></info-a>
+      <info-c></info-c>
       <button on-click="{{increment}}">Click me</button><br>
       <span>(click count: {{count}})</span>
     </div>
