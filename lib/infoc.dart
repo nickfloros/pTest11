@@ -5,7 +5,7 @@ import 'package:polymer/polymer.dart';
  */
 @CustomTag('info-c')
 class InfoC extends PolymerElement {
-  @published int count = 0;
+  @published int infoc_counter = 0;
 
   InfoC.created() : super.created() {
     print('InfoC.created shadowRoot is null ${shadowRoot==null}');
@@ -13,6 +13,10 @@ class InfoC extends PolymerElement {
 
   void hello() {
     print('hello from c');
+  }
+  
+  void infoc_button() {
+    infoc_counter++;
   }
 }
 

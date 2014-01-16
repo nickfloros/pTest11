@@ -9,6 +9,7 @@
         font-size: 24pt;
         text-align: center;
         margin-top: 140px;
+        border: 2px
       }
       button {
         font-size: 24pt;
@@ -16,11 +17,11 @@
       }
     </style>
     <div>
+      <button on-click="{{increment}}">Click me</button><br>
+      <span>(click count: {{count}})</span>
       <info-b></info-b>
       <info-a></info-a>
       <info-c></info-c>
-      <button on-click="{{increment}}">Click me</button><br>
-      <span>(click count: {{count}})</span>
     </div>
   </template>
   <script type="application/dart" src="clickcounter.dart"></script>
