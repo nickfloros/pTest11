@@ -12,17 +12,13 @@ packages:
   barback:
     description: barback
     source: hosted
-    version: "0.11.0"
+    version: "0.11.0+1"
   browser:
     description: browser
     source: hosted
-    version: "0.9.0"
+    version: "0.9.1"
   collection:
     description: collection
-    source: hosted
-    version: "0.9.0"
-  csslib:
-    description: csslib
     source: hosted
     version: "0.9.1"
   custom_element:
@@ -56,7 +52,7 @@ packages:
   polymer:
     description: polymer
     source: hosted
-    version: "0.9.3+3"
+    version: "0.9.4"
   polymer_expressions:
     description: polymer_expressions
     source: hosted
